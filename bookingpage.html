@@ -1,0 +1,110 @@
+<html >
+    <head>
+        
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <title>booking-Let's go airlines</title>
+        <link rel="icon" type="image/x-icon" href="/images/image2.png">
+        <link rel="stylesheet" href="bookstyle.css"/>
+        <script link src="book.js"></script>
+    </head>
+ 
+    
+<body class="main_bg" >
+    <form  action="confirmnpage.html" >
+        <div class="form">
+            <div class="form-text">
+                <h1><span><img src="images/image1.png" alt=""></span>Book Now<span><img src="images/image1.png" alt=""></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugit.</p>
+            </div>
+            <div class="main-form">
+                
+                <form   name="RegForm" onsubmit="return formvalidation()" method="post"  >
+                    <div id="info">
+                        <span>First Name :</span>
+                        <br>
+
+                        <input type="text" name="fname" id="fname" placeholder="Write your name here..."  maxlength="20" required /><br>
+                        <br>
+                        <span>Last Name :</span>
+                        <br>
+            
+                        <input type="text" name="lname" id="lname" placeholder="Write your name here..."  maxlength="20" required><br><br>
+                        <span>Age :</span>
+                        <br>
+            
+                        <input type="number" name="age" id="age" placeholder="Write your age here..." maxlength="3" pattern="[1-9]{3}" min="18" max="150" required><br>
+                        <br>
+                            <div id="rad"  >
+                                <span>Gender :</span>
+                                <br>
+                                    <input type="radio" id="male2" name="gender" value="MALE">
+                                    <label for="Male">Male</label><br>
+                                    <input type="radio" id="female2" name="gender" value="FEMALE">
+                                    <label for="Female">Female</label><br>
+                                    <input type="radio" id="other2" name="gender" value="OTHER">
+                                    <label for="Other">Other</label>
+                            </div><br>
+                        <span>Email ID:</span>
+                        <br>
+                        <input type="text" name="email" id="email" placeholder="Write your email here..."  required><br><br>
+                        <span>Phone number :</span>
+                        <br>
+                        <input type="text" name="number" id="number" placeholder="Write your number here..." maxlength="10"   required><br>
+                        <br>
+                        <br>
+                        <input  type="submit"  id="button1" value="BOOK" disabled="disabled" onsubmit="printname();" /><br><br>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    
+                    
+        
+                <div id="newps1">
+                    <input type="checkbox" id="addpassenger" name="addpassenger" onclick="callvalue()" value="yes">
+                      <label for="addpassenger"><strong>Add Passenger</strong> </label>  
+                        <br>        
+   
+                    <form style="display:none"  id="new" action="confirmnpage.html" onsubmit="getvalue()" >
+
+                        <div id="newPassengers">
+                          <br>
+                       
+                            <span>First Name: </span><br>
+                            <label for="firstName1" class="form-label"></label>
+                            <input type="text"  class="form-control"  id="firstName1"  maxlength="20"  required ><br><br>
+
+                            <span>Last Name: </span><br>
+                            <label for="lastName1" class="form-label"></label>
+                            <input type="text"   class="form-control" id="lastName1"  maxlength="20" required><br><br>
+                              
+                            <span>Age: </span><br>
+                            <label for="age1" class="form-label"></label>
+                            <input type="number"  class="form-control"  id="age1" maxlength="3" pattern="[1-9]{3}" min="18" max="150" required><br><br>
+                              
+                            <span>Gender: </span>
+                               
+                            <div id="radio"><br>
+                                    <input type="radio" id="male1" name="gender" value="MALE">
+                                    <label for="Male">Male</label><br>
+                                    <input type="radio" id="female1" name="gender" value="FEMALE">
+                                    <label for="Female">Female</label><br>
+                                    <input type="radio" id="other1" name="gender" value="OTHER">
+                                    <label for="Other">Other</label>
+                            </div>
+                        </div><br><br>
+
+                        <input type="submit" id="button2" value="BOOK NOW" disabled="disabled"/><br>
+                           
+                    </form>  
+                </div>       
+                </form>  
+</body>
+ 
+ 
+</html>
+ 
+ 

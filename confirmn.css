@@ -1,0 +1,33 @@
+body {
+    margin: 1em;
+    font-family: "Poppins", sans-serif;
+   
+    background-color:rgb(142, 177, 223);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  }
+ 
+.heading{
+  color:green;
+  font-size: larger;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}  
+
+.card{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 0.25rem;
+}
+
+#Passenger1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  line-height: 0.25rem;
+}
+
+#newPassenger{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  line-height: 0.25rem;
+}
+

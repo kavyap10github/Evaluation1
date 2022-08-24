@@ -1,0 +1,59 @@
+ 
+body {
+    margin: 1em;
+    font-family: "Poppins", sans-serif;
+   
+    background-image: url("images/image4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  }
+ 
+ 
+#logopic {
+    border: 1px solid #808080;  
+    margin: 8px;
+    border-radius: 2px;
+    max-inline-size:130px;
+    position: relative;
+    left:70px;
+    bottom:130px;  
+}  
+ 
+#heading h1{
+    color:#210450;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:800%;
+    position: relative;
+    left:15%;
+}
+ 
+
+ 
+header {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    grid-area:header;
+}
+ 
+
+
+ #card-collection .card{
+    display:inline-block;
+ }
+
+.card{
+    width:6cm;
+    margin-bottom:30px;
+    position:relative;
+    left:100px;
+    top:40px;
+}
+
+
+ 
+
+ 
+

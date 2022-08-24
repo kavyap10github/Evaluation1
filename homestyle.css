@@ -1,0 +1,123 @@
+ 
+body {
+    margin: 1em;
+    font-family: "Poppins", sans-serif;
+   
+    background-image: url("images/image4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  }
+ 
+ 
+#logopic {
+    border: 1px solid #808080;  
+    margin: 8px;
+    border-radius: 2px;
+    max-inline-size:130px;
+    position: relative;
+    left:70px;
+    bottom:130px;  
+}  
+ 
+#heading h1{
+    color:#210450;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:800%;
+    position: relative;
+    left:15%;
+}
+ 
+#menu {
+ 
+    position:absolute;
+    left:80%;
+    top:10%;
+    width: 100%;
+}
+ 
+#menu li{
+    display: inline;
+   
+    padding: 5px;
+   
+   
+}
+ 
+#menu li a {
+    color:rgb(0, 39, 211) !important;
+    text-decoration: none;
+}
+ 
+ 
+ 
+header {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    grid-area:header;
+}
+ 
+header #menu{
+    margin-left:auto;
+}
+
+.tagline h1{
+    position:relative;
+    top:20px;
+    left: 175px;
+    bottom:70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+#pic{
+    position:relative;
+    left:200px;
+    top:5px;
+    size:10%;
+    border-radius: 3000px;
+}
+
+.tagline h2{
+    
+    position:relative;
+    left:550px;
+    width: 300px;
+    height:50px;
+    color: black !important;
+    transition: all .3s;
+    text-align: center;
+    
+}
+ 
+#info {
+    width: 500px;
+    height: 1000px;  
+    position:relative;
+    left:200px;
+    text-align: justify;
+    
+    margin-top:500px;
+  }
+ 
+ 
+ #info h1{
+    color:rgb(33, 5, 58);
+ }
+ 
+ #info p{
+    color:#000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+ }
+
+ 
+
+
+
+ 
+
+ 
+
