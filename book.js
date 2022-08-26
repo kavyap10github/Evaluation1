@@ -38,7 +38,7 @@ function printname(){
             
         
         
-            function formvalidation() {
+            /*function formvalidation() {
                 var firstname =
                     document.forms.RegForm.fname.value;
                 var lastname =
@@ -86,10 +86,10 @@ function printname(){
                 
  
                 return true;
-            }
+            }*/
                 
             
-            function doCheck(){
+            /*function doCheck(){
                 var allFilled = true;
             
                 var inputs = document.getElementsByTagName('input');
@@ -113,7 +113,7 @@ function printname(){
                         inputs[i].onblur = doCheck;
                     }
                 }
-            };
+            };*/
 
 
 

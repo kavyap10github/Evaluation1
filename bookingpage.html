@@ -2,25 +2,25 @@
     <head>
         
         <title></title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <title>booking-Let's go airlines</title>
         <link rel="icon" type="image/x-icon" href="/images/image2.png">
         <link rel="stylesheet" href="bookstyle.css"/>
         <script link src="book.js"></script>
+        
     </head>
  
     
 <body class="main_bg" >
-    <form  action="confirmnpage.html" >
+    
         <div class="form">
-            <div class="form-text">
+            
                 <h1><span><img src="images/image1.png" alt=""></span>Book Now<span><img src="images/image1.png" alt=""></span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugit.</p>
-            </div>
-            <div class="main-form">
+            
+            
+                <form  action="confirmnpage.html" onsubmit="printname()">
                 
-                <form   name="RegForm" onsubmit="return formvalidation()" method="post"  >
                     <div id="info">
                         <span>First Name :</span>
                         <br>
@@ -51,14 +51,14 @@
                         <input type="text" name="email" id="email" placeholder="Write your email here..."  required><br><br>
                         <span>Phone number :</span>
                         <br>
-                        <input type="text" name="number" id="number" placeholder="Write your number here..." maxlength="10" pattern="[1-9]{3}"  required><br>
+                        <input type="number" name="number" id="number" placeholder="Write your number here..." maxlength="10" pattern="[1-9]{3}"  required><br>
                         <br>
                         <br>
-                        <input  type="submit"  id="button1" value="BOOK" disabled="disabled" onsubmit="printname();" /><br><br>
+                        <input  type="submit"  id="button1" value="BOOK"   /><br><br>
                     </div>
 
                 </form>
-            </div>
+            
         </div>
     
                     
@@ -97,11 +97,13 @@
                             </div>
                         </div><br><br>
 
-                        <input type="submit" id="button2" value="BOOK NOW" disabled="disabled"/><br>
+                        <input type="submit" id="button2" value="BOOK NOW" /><br>
                            
                     </form>  
                 </div>       
-                </form>  
+
+     </form>  
+
 </body>
  
  
