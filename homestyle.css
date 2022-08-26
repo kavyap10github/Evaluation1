@@ -94,12 +94,12 @@ header #menu{
  
 #info {
     width: 500px;
-    height: 1000px;  
+    height: 800px;  
     position:relative;
     left:200px;
     text-align: justify;
     
-    margin-top:500px;
+    margin-top:200px;
   }
  
  
@@ -113,7 +113,10 @@ header #menu{
     font-size:large;
  }
 
- 
+ #book{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:blue;
+ }
 
 
 

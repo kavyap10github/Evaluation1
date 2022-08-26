@@ -48,9 +48,9 @@ content += `
         <h3>Passenger1 Details: </h3>
         <h5>Name: ${var1} ${var2}</h5>
         <h5>Age: ${var3}</h5>
-        <h5>Gender: ${var6}</h5>
-        <h5>Email: ${var4}</h5>
-        <h5>Phone number: ${var5}</h5>
+        <h5>Gender: ${var4}</h5>
+        <h5>Email: ${var5}</h5>
+        <h5>Phone number: ${var6}</h5>
         </div>
 <br>
 
@@ -59,8 +59,8 @@ content += `
         <h5> Name: ${var7} ${var8}</h5>
         <h5> Age: ${var9} </h5>
         <h5> Gender: ${var10} </h5>
-        <h5>Email: ${var4}</h5>
-        <h5>Phone number: ${var5}</h5>
+        <h5>Email: ${var5}</h5>
+        <h5>Phone number: ${var6}</h5>
           
         </div>
         </div>
