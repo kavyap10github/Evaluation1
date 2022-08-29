@@ -36,65 +36,13 @@ function printname(){
 
             
             
-        
-        
-            /*function formvalidation() {
-                var firstname =
-                    document.forms.RegForm.fname.value;
-                var lastname =
-                    document.forms.RegForm.lname.value;
-                var Email =
-                    document.forms.RegForm.email.value;
-                var phone =
-                    document.forms.RegForm.number.value;
-                var ageyr =
-                    document.forms.RegForm.age.value;
-
-                
-                
-                var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;  //Javascript reGex for Email Validation.
-                var regPhone=/^\d{10}$/;                                        // Javascript reGex for Phone Number validation.
-                var regName = /\d+$/g; 
-                //var regAge=/^\d{3}$/;                                   // Javascript reGex for Name validation
- 
-                if (firstname == "" || regName.test(firstname)) {
-                    window.alert("Please enter your first name properly.");
-                    firstname.focus();
-                    return false;
-                }
-                if (lastname == "" || regName.test(lastname)) {
-                    window.alert("Please enter your last name properly.");
-                    lastname.focus();
-                    return false;
-                }
- 
-                 
-                if (Email == "" || !regEmail.test(Email)) {
-                    window.alert("Please enter a valid e-mail address.");
-                    Email.focus();
-                    return false;
-                }
-                  
- 
-                if (phone == "" || !regPhone.test(phone)) {
-                    alert("Please enter valid phone number.");
-                    phone.focus();
-                    return false;
-                }
-                
- 
-                
- 
-                return true;
-            }*/
-                
-            
-            /*function doCheck(){
+    
+            function doCheck(){
                 var allFilled = true;
             
                 var inputs = document.getElementsByTagName('input');
                 for(var i=0; i<inputs.length; i++){
-                    if(inputs[i].type == "text" && inputs[i].value == ''){
+                    if((inputs[i].type == "text" || inputs[i].type == "number" || inputs[i].type == "radio" ) && inputs[i].value == ''){
                         allFilled = false;
                         break;
                     }
@@ -108,12 +56,12 @@ function printname(){
             window.onload = function(){
                 var inputs = document.getElementsByTagName('input');
                 for(var i=0; i<inputs.length; i++){
-                    if(inputs[i].type == "text"){
+                    if(inputs[i].type == "text" || inputs[i].type == "number" || inputs[i].type == "radio"){
                         inputs[i].onkeyup = doCheck;
                         inputs[i].onblur = doCheck;
                     }
                 }
-            };*/
+            };
 
 
 
@@ -145,9 +93,7 @@ function printname(){
            
    
    
-   
-   
-   
+     
          function callvalue(){
            if(document.getElementById('addpassenger').checked) {
              document.getElementById('new').style.display='block';
